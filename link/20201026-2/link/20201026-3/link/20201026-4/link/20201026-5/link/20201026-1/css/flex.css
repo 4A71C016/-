@@ -1,0 +1,91 @@
+body {
+    height: 1000px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.nav {
+    top: 0;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    padding-left: 20px;
+    z-index: 800;
+    position: fixed;
+    box-shadow: 0px 2px 2px 0 rgb(195, 195, 195);
+    margin: 0;
+
+}
+
+.icon {
+    top: 2px;
+    right: 20px;
+    position: fixed;
+    line-height: 50px;
+    color: white;
+    z-index: 1000;
+}
+
+.buttom {
+    margin-right: 10px;
+}
+
+.buttom:hover {
+    color: tomato;
+    cursor: pointer;
+}
+
+header {
+    background-color: rgb(228, 228, 228);
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 230px;
+}
+
+.container {
+    background-color: rgb(228, 228, 228);
+    padding-left: 220px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.card {
+    background-color: white;
+    height: 280px;
+    width: 300px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.cardhead {
+    height: 180px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.cardimg {
+    background-size: cover;
+    height: 180px;
+    width: 350px;
+}
+
+.cardimg:hover {
+    transform: scale(1.4);
+    transition: all 0.6s;
+}
+
+.cardbody {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.cardbody:hover {
+    color: tomato;
+    cursor: pointer;
+}
